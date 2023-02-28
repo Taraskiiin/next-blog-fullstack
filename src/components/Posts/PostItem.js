@@ -11,16 +11,18 @@ function PostItem({ title, image, excerpt, date, slug }) {
 	});
 
 	const imagePath = `@/assets/images/posts/${slug}/${image}`;
+	const linkPath = `/posts/${slug}`;
 
 	return (
 		<li className={styles.post}>
-			<Link href={slug}>
+			<Link href={linkPath}>
 				<div className={styles.image}>
 					<Image
 						href={imagePath}
 						alt={`${title} image`}
 						width={300}
 						height={200}
+						layout='responsive'
 					/>
 				</div>
 				<div className={styles.content}>

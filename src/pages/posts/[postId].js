@@ -1,10 +1,7 @@
+import PostContent from '@/components/Posts/PostDetail/PostContent';
+
 function PostDetailPage() {
-	return (
-		<>
-			<Hero />
-			<FeaturedPosts />
-		</>
-	);
+	return <PostContent />;
 }
 
 export default PostDetailPage;
