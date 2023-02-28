@@ -1,44 +1,24 @@
 import Hero from '@/components/Home/Hero';
 import FeaturedPosts from '@/components/Home/FeaturedPosts';
+import { getFeaturedPosts } from '@/utils/PostsUtil';
 
-const mockPosts = [
-	{
-		slug: 'mock-slug1',
-		title: 'mock-title',
-		image: 'mock-image',
-		excerpt: 'mock-excerpt',
-		date: '2023-02-28',
-	},
-	{
-		slug: 'mock-slug2',
-		title: 'mock-title',
-		image: 'mock-image',
-		excerpt: 'mock-excerpt',
-		date: '2023-02-28',
-	},
-	{
-		slug: 'mock-slug3',
-		title: 'mock-title',
-		image: 'mock-image',
-		excerpt: 'mock-excerpt',
-		date: '2023-02-28',
-	},
-	{
-		slug: 'mock-slug4',
-		title: 'mock-title',
-		image: 'mock-image',
-		excerpt: 'mock-excerpt',
-		date: '2023-02-28',
-	},
-];
-
-function HomePage() {
+function HomePage(props) {
 	return (
 		<>
 			<Hero />
-			<FeaturedPosts posts={mockPosts} />
+			<FeaturedPosts posts={props.posts} />
 		</>
 	);
+}
+
+export function getStaticProps() {
+	const featuredPosts = getFeaturedPosts();
+
+	return {
+		props: {
+			posts: featuredPosts,
+		},
+	};
 }
 
 export default HomePage;
