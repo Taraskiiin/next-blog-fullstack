@@ -5,7 +5,7 @@ import styles from '@/styles/Layout/MainNavigation.module.css';
 
 const headerLinks = [
 	{ link: '/posts', title: 'Posts' },
-	{ link: '/contacts', title: 'Contacts' },
+	{ link: '/contact', title: 'Contact' },
 ];
 
 function MainNavigation() {
