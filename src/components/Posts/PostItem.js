@@ -10,7 +10,7 @@ function PostItem({ title, image, excerpt, date, slug }) {
 		year: 'numeric',
 	});
 
-	const imagePath = `@/assets/images/posts/${slug}/${image}`;
+	const imagePath = `/assets/projects/${image}`;
 	const linkPath = `/posts/${slug}`;
 
 	return (
@@ -18,7 +18,7 @@ function PostItem({ title, image, excerpt, date, slug }) {
 			<Link href={linkPath}>
 				<div className={styles.image}>
 					<Image
-						href={imagePath}
+						src={imagePath}
 						alt={`${title} image`}
 						width={300}
 						height={200}

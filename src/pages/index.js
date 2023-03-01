@@ -11,7 +11,7 @@ function HomePage(props) {
 	);
 }
 
-export function getStaticProps() {
+export async function getStaticProps() {
 	const featuredPosts = getFeaturedPosts();
 
 	return {

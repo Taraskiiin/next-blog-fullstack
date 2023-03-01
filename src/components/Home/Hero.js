@@ -1,13 +1,13 @@
 import Image from 'next/image';
-import myPhoto from '@/assets/taraskiiin.jpg';
 
 import styles from '@/styles/components/Home/Hero.module.css';
+
 function Hero() {
 	return (
 		<section className={styles.hero}>
 			<div className={styles.image}>
 				<Image
-					src={myPhoto}
+					src='/assets/taraskiiin.jpg'
 					alt='An image showing Me'
 					width={500}
 					height={500}
