@@ -1,4 +1,3 @@
-import styles from '@/styles/components/Posts/PostHeader.module.css';
 import Image from 'next/image';
 
 import styles from '@/styles/components/Posts/PostDetail/PostHeader.module.css';
