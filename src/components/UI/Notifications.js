@@ -1,3 +1,4 @@
+import ReactDOM from 'react-dom';
 import styles from '@/styles/UI/Notification.module.css';
 
 function Notification(props) {
@@ -19,11 +20,12 @@ function Notification(props) {
 
 	const activeClasses = `${styles.notification} ${statusClasses}`;
 
-	return (
+	return ReactDOM.createPortal(
 		<div className={activeClasses}>
 			<h2>{title}</h2>
 			<p>{message}</p>
-		</div>
+		</div>,
+		document.getElementById('notifications')
 	);
 }
 
