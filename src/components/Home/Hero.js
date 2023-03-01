@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import styles from '@/styles/components/Home/Hero.module.css';
+import styles from '@/styles/Home/Hero.module.css';
 
 function Hero() {
 	return (

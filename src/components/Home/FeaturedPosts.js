@@ -1,6 +1,6 @@
 import PostsGrid from '@/components/Posts/PostsGrid';
 
-import styles from '@/styles/components/Home/FeaturedPosts.module.css';
+import styles from '@/styles/Home/FeaturedPosts.module.css';
 
 function FeaturedPosts(props) {
 	return (

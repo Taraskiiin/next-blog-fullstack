@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-import styles from '@/styles/components/Posts/PostItem.module.css';
+import styles from '@/styles/Posts/PostItem.module.css';
 
 function PostItem({ title, image, excerpt, date, slug }) {
 	const formattedDate = new Date(date).toLocaleDateString('en-US', {

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Logo from '@/components/Layout/Logo';
 
-import styles from '@/styles/components/Layout/MainNavigation.module.css';
+import styles from '@/styles/Layout/MainNavigation.module.css';
 
 const headerLinks = [
 	{ link: '/posts', title: 'Posts' },

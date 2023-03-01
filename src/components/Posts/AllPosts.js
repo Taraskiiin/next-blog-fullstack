@@ -1,5 +1,5 @@
 import PostsGrid from '@/components/Posts/PostsGrid';
-import styles from '@/styles/components/Posts/AllPosts.module.css';
+import styles from '@/styles/Posts/AllPosts.module.css';
 
 function AllPosts({ posts }) {
 	return (

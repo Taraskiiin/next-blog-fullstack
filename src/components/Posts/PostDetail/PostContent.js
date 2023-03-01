@@ -2,7 +2,7 @@ import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import PostHeader from '@/components/Posts/PostDetail/PostHeader';
 
-import styles from '@/styles/components/Posts/PostDetail/PostContent.module.css';
+import styles from '@/styles/Posts/PostDetail/PostContent.module.css';
 
 function PostContent({ post }) {
 	const imagePath = `/assets/projects/${post.image}`;
