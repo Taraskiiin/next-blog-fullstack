@@ -20,7 +20,6 @@ export function getPostData(postIdentifier) {
 		...data,
 		content,
 	};
-
 	return postData;
 }
 
