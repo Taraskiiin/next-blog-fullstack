@@ -42,7 +42,7 @@ function PostContent({ post }) {
 	};
 	return (
 		<article className={styles.content}>
-			<PostHeader title={post.title} image={imagePath} />
+			<PostHeader title={post.title} image={imagePath} demo={post.demo}/>
 			<ReactMarkdown renderers={customRenderers} children={post.content} />
 		</article>
 	);
