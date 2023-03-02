@@ -3,13 +3,7 @@ import Image from 'next/image';
 
 import styles from '@/styles/Posts/PostItem.module.css';
 
-function PostItem({ title, image, excerpt, date, slug }) {
-	const formattedDate = new Date(date).toLocaleDateString('en-US', {
-		day: 'numeric',
-		month: 'long',
-		year: 'numeric',
-	});
-
+function PostItem({ title, image, stack, slug }) {
 	const imagePath = `/assets/projects/${image}`;
 	const linkPath = `/posts/${slug}`;
 
@@ -27,8 +21,7 @@ function PostItem({ title, image, excerpt, date, slug }) {
 				</div>
 				<div className={styles.content}>
 					<h3>{title}</h3>
-					<time>{formattedDate}</time>
-					<p>{excerpt}</p>
+					<p>{stack}</p>
 				</div>
 			</Link>
 		</li>

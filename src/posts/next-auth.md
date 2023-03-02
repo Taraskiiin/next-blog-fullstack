@@ -1,8 +1,8 @@
 ---
-title: 'Next-Events-App'
-demo: 'https://next-events-app-eight.vercel.app/'
-image: 'next-events-app.png'
-stack: 'NextJS'
+title: 'Next-Auth'
+demo: 'https://next-auth-pi-olive.vercel.app/'
+image: 'next-auth.png'
+stack: 'NextJS + NextAuth.js'
 isFeatured: true
 ---
 

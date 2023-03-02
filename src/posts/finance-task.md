@@ -1,8 +1,8 @@
 ---
-title: 'getting started with nextJS'
-date: '2023-02-28'
+title: 'Finance-Task'
+demo: 'https://taraskiiin.github.io/finance-task/'
 image: 'finance-task.png'
-excerpt: 'ReactJS + Material UI + Redux Toolkit'
+stack: 'ReactJS + Material UI + Redux Toolkit'
 isFeatured: true
 ---
 

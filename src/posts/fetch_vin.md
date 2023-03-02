@@ -1,8 +1,8 @@
 ---
-title: 'getting started with nextJS'
-date: '2023-02-28'
+title: 'Fetch_Vin'
+demo: 'https://taraskiiin.github.io/fetch_vin/'
 image: 'fetch_vin.png'
-excerpt: 'ReactJS + Redux Toolkit + React Router'
+stack: 'ReactJS + Redux Toolkit + React Router'
 isFeatured: true
 ---
 

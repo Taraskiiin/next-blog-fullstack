@@ -1,8 +1,8 @@
 ---
-title: 'getting started with nextJS'
-date: '2023-02-28'
+title: 'Meetup-App'
+demo: 'https://taraskiiin.github.io/meetup-app/'
 image: 'meetup-app.png'
-excerpt: 'ReactJS + React Router'
+stack: 'ReactJS + React Router'
 isFeatured: true
 ---
 
