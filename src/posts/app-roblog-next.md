@@ -1,8 +1,8 @@
 ---
-title: "App-Roblog-Next"
-demo: "https://roblog-next.vercel.app/"
-image: "app-roblog-next.png"
-stack: "NextJS + Auth0 + MongoDB + OpenAI + Stripe + Tailwind CSS"
+title: 'App-Roblog-Next'
+demo: 'https://roblog-next.vercel.app/'
+image: 'approblog-next.png'
+stack: 'NextJS + Auth0 + MongoDB + OpenAI + Stripe + Tailwind CSS'
 isFeatured: true
 ---
 
