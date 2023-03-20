@@ -2,7 +2,7 @@
 title: "Beats-Per-Mint"
 demo: "https://beats-per-mint.vercel.app/"
 image: "beats-per-mint.png"
-stack: "NextJS + TypeScript + Material UI"
+stack: "NextJS + TypeScript + Material UI + NextAuth.js"
 isFeatured: true
 ---
 
