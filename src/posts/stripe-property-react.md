@@ -1,6 +1,6 @@
 ---
 title: 'Stripe-Property-React'
-demo: 'dapper-cucurucho-5d63e8.netlify.app'
+demo: 'https://dapper-cucurucho-5d63e8.netlify.app/'
 image: 'stripe-property-react.png'
 stack: 'React + Styled Components + Auth0 + Swiper/React + Atomic Structure'
 isFeatured: true
